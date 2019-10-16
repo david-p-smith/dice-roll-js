@@ -1,5 +1,10 @@
-let firstDie = 5;
-let secondDie = 3;
+function rollDie() {
+    let value = 6 * Math.random();
+    return Math.ceil(value);
+}
+
+let firstDie = rollDie();
+let secondDie = rollDie();
 
 console.log(firstDie);
 console.log(secondDie);
